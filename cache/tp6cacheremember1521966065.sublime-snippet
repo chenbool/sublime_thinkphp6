@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[Cache::remember('${1:key}', function () {
+    return Db::table('${2:user}')->find();
+}, ${3:3600});]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6cacheremember</tabTrigger>
+	<description>ThinkPHP 6 缓存记忆</description>
+</snippet>

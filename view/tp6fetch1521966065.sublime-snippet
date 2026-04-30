@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[return view('${1:index}', ['${2:data}' => ${3:\$data}]);]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6fetch</tabTrigger>
+	<description>ThinkPHP 6 模板渲染</description>
+</snippet>

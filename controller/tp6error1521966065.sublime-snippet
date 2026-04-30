@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[return $this->error('${1:操作失败}');]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6error</tabTrigger>
+	<description>ThinkPHP 6 错误页面</description>
+</snippet>

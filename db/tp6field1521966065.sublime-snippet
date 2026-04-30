@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Db::table('${1:user}')->field('${2:id,name,email}')->select();]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6field</tabTrigger>
+	<description>ThinkPHP 6 指定字段</description>
+</snippet>

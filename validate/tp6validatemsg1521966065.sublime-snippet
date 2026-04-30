@@ -1,0 +1,23 @@
+<![CDATA[<?php
+declare (strict_types = 1);
+
+namespace app\validate;
+
+use think\Validate;
+
+class ${1:User} extends Validate
+{
+    protected \$rule = [
+        '${2:name}'  =>  'require',
+        '${3:email}' =>  'email',
+    ];
+
+    protected \$message = [
+        '${4:name}.require' => '${5:用户名必须}',
+        '${6:email}.email' => '${7:邮箱格式错误}',
+    ];
+}]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6validatemsg</tabTrigger>
+	<description>ThinkPHP 6 验证器带提示</description>
+</snippet>

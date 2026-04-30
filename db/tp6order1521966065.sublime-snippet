@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Db::table('${1:user}')->order('${2:id}', '${3:desc}')->select();]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6order</tabTrigger>
+	<description>ThinkPHP 6 排序</description>
+</snippet>

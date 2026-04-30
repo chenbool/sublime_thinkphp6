@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Route::resource('${1:user}', '${2:api/User}');]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6resource</tabTrigger>
+	<description>ThinkPHP 6 资源路由</description>
+</snippet>

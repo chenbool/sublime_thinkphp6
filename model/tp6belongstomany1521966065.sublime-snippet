@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[public function ${1:tags}()
+{
+    return \$this->belongsToMany(\app\model\${2:Tag}::class);
+}]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6belongstomany</tabTrigger>
+	<description>ThinkPHP 6 多对多关联</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[return $this->success('${1:操作成功}');]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6success</tabTrigger>
+	<description>ThinkPHP 6 成功页面</description>
+</snippet>

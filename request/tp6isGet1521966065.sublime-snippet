@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[request()->isGet()]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6isGet</tabTrigger>
+	<description>ThinkPHP 6 是否GET</description>
+</snippet>

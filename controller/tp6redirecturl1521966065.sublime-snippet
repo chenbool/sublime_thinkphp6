@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[return redirect('${1:index/index}');]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6redirecturl</tabTrigger>
+	<description>ThinkPHP 6 URL重定向</description>
+</snippet>

@@ -6,7 +6,7 @@
 
 | 特性 | 说明 |
 |------|------|
-| 代码片段 | 20+ 个代码片段 |
+| 代码片段 | 90+ 个代码片段 |
 | 完整覆盖 | 覆盖 ThinkPHP6 核心功能 |
 | 智能提示 | 支持 Tab 键快速补全 |
 | 调试函数 | 内置常用调试方法 |
@@ -32,13 +32,20 @@ git clone https://github.com/chenbool/sublime_thinkphp6.git
 
 | 分类 | 数量 | 说明 |
 |------|------|------|
-| Controller | 1 | 控制器 |
-| Model | 3 | 模型 |
-| DB | 8 | 数据库操作 |
-| Request | 2 | 请求对象 |
-| Route | 3 | 路由配置 |
-| Validate | 1 | 验证器 |
+| Controller | 10 | 控制器 |
+| Model | 5 | 模型 |
+| DB | 25 | 数据库操作 |
+| Request | 12 | 请求对象 |
+| Route | 8 | 路由配置 |
+| Validate | 4 | 验证器 |
 | Middleware | 1 | 中间件 |
+| Cache | 7 | 缓存 |
+| Session | 4 | Session |
+| Cookie | 3 | Cookie |
+| Log | 4 | 日志 |
+| View | 2 | 视图 |
+| Url | 1 | URL |
+| Bug | 4 | 调试 |
 
 ## 使用示例
 

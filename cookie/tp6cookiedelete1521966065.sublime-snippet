@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Cookie::delete('${1:name}');]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6cookiedelete</tabTrigger>
+	<description>ThinkPHP 6 删除Cookie</description>
+</snippet>
