@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Db::table('${1:think_user}')->insert(${2:\$data});]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6insert</tabTrigger>
+	<description>ThinkPHP 6 插入数据</description>
+</snippet>

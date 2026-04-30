@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[Route::group('${1:api}', function () {
+    Route::get('${2:user/list}', '${3:api/user/list}');
+    Route::post('${4:user/add}', '${5:api/user/add}');
+});]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6routegroup</tabTrigger>
+	<description>ThinkPHP 6 路由分组</description>
+</snippet>

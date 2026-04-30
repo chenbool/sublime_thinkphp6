@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[<?php
+declare (strict_types = 1);
+
+namespace app\validate;
+
+use think\Validate;
+
+class ${1:User} extends Validate
+{
+    protected \$rule = [
+        '${2:name}'  =>  'require|max:25',
+        '${3:email}' =>  'require|email',
+    ];
+}]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6validate</tabTrigger>
+	<description>ThinkPHP 6 验证器</description>
+</snippet>

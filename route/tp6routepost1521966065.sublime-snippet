@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Route::post('${1:api/:action}', '${2:index/api}');]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6routepost</tabTrigger>
+	<description>ThinkPHP 6 POST路由</description>
+</snippet>

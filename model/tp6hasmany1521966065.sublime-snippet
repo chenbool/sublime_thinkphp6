@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[public function ${1:orders}()
+{
+    return \$this->hasMany(\app\model\${2:Order}::class);
+}]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6hasmany</tabTrigger>
+	<description>ThinkPHP 6 一对多关联</description>
+</snippet>
