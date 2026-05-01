@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[<?php
+
+namespace app\model;
+
+use think\Model;
+
+class ${1:User} extends Model
+{
+    protected \$hidden = ['${2:password', '${3:delete_time}'];
+    protected \$visible = ['${4:id', '${5:username', '${6:email}'];
+    protected \$append = ['${7:status_text}'];
+    
+    public function getStatusTextAttr(\$value, \$data)
+    {
+        return \$data['status'] == 1 ? '正常' : '禁用';
+    }
+}]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6hidden</tabTrigger>
+	<description>ThinkPHP6 隐藏/显示字段</description>
+</snippet>

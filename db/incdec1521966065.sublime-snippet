@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[Db::name('${1:user}')->inc('${2:views}')->update();
+Db::name('${3:user}')->dec('${4:score}', 10)->update();]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6incdec</tabTrigger>
+	<description>ThinkPHP6 递增递减</description>
+</snippet>

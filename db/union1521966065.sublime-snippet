@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[Db::name('${1:user}')->union(function (\$query) {
+    \$query->field('id, username')->table('other_user');
+})->select();]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6union</tabTrigger>
+	<description>ThinkPHP6 UNION查询</description>
+</snippet>

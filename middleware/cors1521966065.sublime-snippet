@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[<?php
+
+namespace app\middleware;
+
+class ${1:Cors}
+{
+    public function handle(\$request, \Closure \$next)
+    {
+        \$response = \$next(\$request);
+        \$response->header([
+            'Access-Control-Allow-Origin' => '*',
+            'Access-Control-Allow-Methods' => 'GET, POST, PUT, DELETE, OPTIONS',
+            'Access-Control-Allow-Headers' => 'Content-Type, Authorization',
+        ]);
+        return \$response;
+    }
+}]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6cors</tabTrigger>
+	<description>ThinkPHP6 CORS中间件</description>
+</snippet>

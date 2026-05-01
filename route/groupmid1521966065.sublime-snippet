@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[Route::group('${1:api}', function () {
+    Route::get('${2:user}', 'user/index');
+    Route::post('${3:user}', 'user/create');
+})->middleware(['${4:cors}']);]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6groupmid</tabTrigger>
+	<description>ThinkPHP6 路由组-中间件</description>
+</snippet>

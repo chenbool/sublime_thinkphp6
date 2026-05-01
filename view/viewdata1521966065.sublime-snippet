@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[return view('${1:user/index}', ['user' => \$user]);]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6viewdata</tabTrigger>
+	<description>ThinkPHP6 视图传数据</description>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[<?php
+
+namespace app\service;
+
+class ${1:UserService}
+{
+    public function getUser(\$id)
+    {
+        return User::find(\$id);
+    }
+    
+    public function createUser(\$data)
+    {
+        return User::create(\$data);
+    }
+}]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6service</tabTrigger>
+	<description>ThinkPHP6 Service类</description>
+</snippet>
