@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[<?php
+
+namespace app\model;
+
+use think\Model;
+
+class ${1:User} extends Model
+{
+    protected \$type = [
+        '${2:status}' => 'integer',
+        '${3:create_time}' => 'timestamp',
+    ];
+}]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6type</tabTrigger>
+	<description>ThinkPHP6 类型转换</description>
+</snippet>

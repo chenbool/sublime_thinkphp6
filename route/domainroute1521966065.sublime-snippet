@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[Route::domain('${1:api}', function () {
+    Route::get('${2:user}', 'user/index');
+    Route::post('${3:user}', 'user/create');
+});]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6domainroute</tabTrigger>
+	<description>ThinkPHP6 域名路由</description>
+</snippet>

@@ -1,0 +1,6 @@
+<![CDATA[<snippet>
+	<content><![CDATA[Url::build('${1:user/show}', ['id' => 1], true, true);]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp8urlfull</tabTrigger>
+	<description>ThinkPHP6 完整URL生成</description>
+</snippet>

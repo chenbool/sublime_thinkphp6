@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[<?php
+
+namespace app\validate;
+
+use think\Validate;
+
+class ${1:UserValidate} extends Validate
+{
+    protected \$rule = [
+        'username' => 'require|max:25',
+    ];
+    
+    protected \$scene = [
+        'add' => ['username', 'password'],
+        'edit' => ['username'],
+    ];
+}]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6scenevalidate</tabTrigger>
+	<description>ThinkPHP6 场景验证</description>
+</snippet>

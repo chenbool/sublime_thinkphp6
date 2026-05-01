@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Db::name('${1:user}')->paginate(15, false, ['query' => request()->param()]);]]></content>
+	<scope>source.php</scope>
+	<tabTrigger>tp6paginateplus</tabTrigger>
+	<description>ThinkPHP6 分页带参数</description>
+</snippet>
